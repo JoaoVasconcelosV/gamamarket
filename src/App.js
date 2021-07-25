@@ -94,8 +94,7 @@ function App() {
         {products.map((product) => 
           <Card key={product.id} img={product.img} title={product.name} price={product.price} onClick={() => addProduct(product)} />
         )}        
-      </div>
-      <div>AQUI:</div>
+      </div>      
     </div>
   );
 }
